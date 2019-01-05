@@ -138,7 +138,7 @@ Osmium. Historical OSM data might contain longer node lists.
 
 ## Relations
 
-In addition to the attributes and tags ways have an ordered list of *members*
+In addition to the attributes and tags relations have an ordered list of *members*
 (`RelationMember`). Each member has a type (node, way, or relation), a
 reference to an object ID of the given type, and a *role*. The role is a 256
 character UTF-8 string and can be empty.
